@@ -16,3 +16,11 @@ yarn-error.log*
 # Scripts
 deploy.sh
 backup/
+
+# Секреты и мусор (2026-10-03)
+.env.*
+!.env.example
+!.env.*.example
+.vscode/sftp.json
+*.sql
+*.sql.gz
