@@ -1,6 +1,6 @@
 {
   "name": "directus-extension-gallery-grid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Grid layout gallery with drag-and-drop, cover image selection, and cover display.",
   "icon": "grid_view",
   "keywords": [

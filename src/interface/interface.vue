@@ -871,8 +871,10 @@ function removeTag(index: number, tag: string) {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(var(--columns, 4), 1fr);
+	grid-template-columns: repeat(var(--columns, 4), minmax(0, 1fr));
 	gap: 12px;
+	width: 100%;
+	min-width: 0;
 }
 
 .grid-item {
